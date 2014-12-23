@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jakatomi.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PisangActivity"
+            android:label="@string/title_activity_pisang" >
+        </activity>
+        <activity
+            android:name=".SepedaActivity"
+            android:label="@string/title_activity_sepeda" >
+        </activity>
+        <activity
+            android:name=".LaptopActivity"
+            android:label="@string/title_activity_laptop" >
+        </activity>
+        <activity
+            android:name=".NasiActivity"
+            android:label="@string/title_activity_nasi" >
+        </activity>
+        <activity
+            android:name=".KabelActivity"
+            android:label="@string/title_activity_kabel" >
+        </activity>
+        <activity
+            android:name=".SotoActivity"
+            android:label="@string/title_activity_soto" >
+        </activity>
+        <activity
+            android:name=".KacangActivity"
+            android:label="@string/title_activity_kacang" >
+        </activity>
+        <activity
+            android:name=".StikomActivity"
+            android:label="@string/title_activity_stikom" >
+        </activity>
+        <activity
+            android:name=".TokoActivity"
+            android:label="@string/title_activity_toko" >
+        </activity>
+        <activity
+            android:name=".MukaActivity"
+            android:label="@string/title_activity_muka" >
+        </activity>
+        <activity
+            android:name=".EndActivity"
+            android:label="@string/title_activity_end" >
+        </activity>
+    </application>
+
+</manifest>

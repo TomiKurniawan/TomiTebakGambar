@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#008efb"
+    tools:context="com.jakatomi.tebakgambar.LaptopActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/laptopi" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/imageView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="JAWAB DISINI"
+        android:paddingLeft="10dp"
+        android:textSize="16sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_toRightOf="@+id/editText1"
+        android:minHeight="44dip"
+        android:minWidth="80dip"
+        android:onClick="cekJawaban"
+        android:text="Cek"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#ffffff" />
+
+</RelativeLayout>
